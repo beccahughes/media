@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Loading Test Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <section>
+    <h2>HTML5 Video (Preloaded)</h2>
+    <video controls width=300 height=200>
+      <source src="BigBuck.webm" type="video/webm">
+    </video>
+  </section>
+  <section>
+    <h2>HTML5 Video (Poster)</h2>
+    <video controls preload="none" width=300 height=200 poster="BigBuck_360x240.jpg">
+      <source src="BigBuck.webm" type="video/webm">
+    </video>
+  </section>
+  <section>
+    <h2>HTML5 Video (No Preloading)</h2>
+    <video controls width=300 height=200 preload="none">
+      <source src="BigBuck.webm" type="video/webm">
+    </video>
+  </section>
+  <section>
+    <h2>HTML5 Video (No Source)</h2>
+    <video controls width=300 height=200></video>
+  </section>
+</body>
+</html>
