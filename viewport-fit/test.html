@@ -9,6 +9,24 @@
         display: block;
         margin-bottom: 10px;
       }
+
+      #box {
+        width: 10px;
+        height: 10px;
+        border: 1px solid black;
+      }
+
+      @viewport (viewport-fit: auto) {
+        #box { background: green; }
+      }
+
+      @viewport (viewport-fit: cover) {
+        #box { background: blue; }
+      }
+
+      @viewport (viewport-fit: contain) {
+        #box { background: red; }
+      }
     </style>
   </head>
   <body>
@@ -17,6 +35,7 @@
     <a href="#" data-value="contain">contain</a>
     <a href="#" data-value="cover">cover</a>
     <a href="#">clear</a>
+    <div id="box"></div>
 <script>
 const viewport = document.getElementsByTagName('meta')[0];
 const label = document.getElementById('value');
