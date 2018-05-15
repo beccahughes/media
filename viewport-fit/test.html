@@ -34,6 +34,7 @@
     <a href="#" data-value="auto">auto</a>
     <a href="#" data-value="contain">contain</a>
     <a href="#" data-value="cover">cover</a>
+    <a href="#" data-value="fullscreen">fullscreen</a>
     <a href="#">clear</a>
     <div id="box"></div>
 <script>
@@ -46,7 +47,9 @@ for (let i = 0; i < links.length; i++) {
     e.preventDefault();
 
     const value = links[i].dataset.value;
-    if (value) {
+    if (value == 'fullscreen') {
+      document.documentElement.webkitRequestFullScreen();
+    } else if (value) {
       viewport.setAttribute('value', 'viewport-fit=' + value);
       label.innerHTML = value;
     } else {
