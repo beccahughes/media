@@ -50,10 +50,10 @@ for (let i = 0; i < links.length; i++) {
     if (value == 'fullscreen') {
       document.documentElement.webkitRequestFullScreen();
     } else if (value) {
-      viewport.setAttribute('value', 'viewport-fit=' + value);
+      viewport.setAttribute('content', 'viewport-fit=' + value);
       label.innerHTML = value;
     } else {
-      viewport.removeAttribute('value');
+      viewport.removeAttribute('content');
       label.innerHTML = 'not set';
     }
   });
