@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Page Title</title>
+<body onload="setTimeout(play, 5000)">
+  <video src=https://storage.googleapis.com/dalecurtis-shared/buck2.mp4 controls width=400 />
+  <script>
+    function play() {
+      console.log('called play');
+      document.getElementsByTagName('video')[0].play().catch((e) => console.error(e.message));
+    }
+  </script>
