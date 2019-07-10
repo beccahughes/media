@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seeking Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    #player {
+      margin-top: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      position: relative;
+    }
+
+    #player > video {
+      width: 400px;
+    }
+
+    #frame {
+      width: 400px;
+      display: none;
+      position: absolute;
+      top: 0;
+    }
+
+    #slider {
+      margin-top: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id=player>
+    <video src=https://storage.googleapis.com/dalecurtis-shared/buck2.webm controls></video>
+    <img id=frame />
+  </div>
+  <input type="range" value=0 min=1 id=slider />
+<script>
+  const video = document.querySelector('video');
+  const slider = document.querySelector('input');
+  const frame = document.getElementById('frame');
+
+  let seeking = false;
+
+  function startSeeking() {
+    frame.style.display = 'block';
+    seeking = true;
+  }
+
+  function stopSeeking() {
+    frame.style.display = 'none';
+    seeking = false;
+  }
+
+  // data has seekTime and fastSeek options
+  function seek(data) {
+    if (data.fastSeek) {
+      startSeeking();
+
+      frame.src = 'frames/out' + (parseInt(data.seekTime) + 1) + '.png';
+    } else {
+      stopSeeking();
+      video.currentTime = data.seekTime;
+    }
+  }
+
+  video.addEventListener('durationchange', () => {
+    console.log('durationchange: ' + video.duration);
+    slider.max = video.duration;
+  });
+
+  video.addEventListener('timeupdate', () => {
+    console.log('timeupdate: ' + video.currentTime);
+
+    if (!seeking)
+      slider.value = video.currentTime;
+  });
+
+  slider.addEventListener('input', () => {
+    console.log('input: ' + slider.value);
+    seek({ seekTime: slider.value, fastSeek: true });
+  });
+
+  slider.addEventListener('change', () => {
+    console.log('change: ' + slider.value);
+    seek({ seekTime: slider.value, fastSeek: false });
+  });
+
+  // If "seekto" is supported then we should bind it.
+  navigator.mediaSession.setActionHandler("seekto", seek);
+</script>
+</body>
+</html>
