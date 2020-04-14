@@ -139,7 +139,7 @@
               "episodeNumber": 80,
               "potentialAction": {
                 "@type": "WatchAction",
-                "actionStatus": "https://schema.org/PendingActionStatus",
+                "actionStatus": "https://schema.org/PotentialActionStatus",
                 "target": "https://www.youtube.com/watch?v=lM0qZpxu0Fg"
               },
               "image": {
@@ -169,7 +169,7 @@
             "name": "Google Chrome Developers",
             "url": "https://www.youtube.com/user/ChromeDevelopers"
         },
-        "datePublished": "2020",
+        "datePublished": "2020-01-01",
         "description": "Find out how Chrome works.",
         "genre": "Factual",
         "isFamilyFriendly": "https://schema.org/True",
@@ -206,7 +206,7 @@
               "episodeNumber": 1,
               "potentialAction": {
                 "@type": "WatchAction",
-                "actionStatus": "https://schema.org/PendingActionStatus",
+                "actionStatus": "https://schema.org/PotentialActionStatus",
                 "target": "https://www.youtube.com/watch?v=PzzNuCk-e0Y"
               },
               "image": {
