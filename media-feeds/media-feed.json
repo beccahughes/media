@@ -184,7 +184,7 @@
               "episodeNumber": 10,
               "potentialAction": {
                 "@type": "WatchAction",
-                "actionStatus": "https://schema.org/CompleteActionStatus",
+                "actionStatus": "https://schema.org/CompletedActionStatus",
                 "target": "https://www.youtube.com/watch?v=kNzoswFIU9M"
               },
               "image": {
@@ -231,6 +231,7 @@
         "@context": "https://schema.org/",
         "@type": "TVSeries",
         "@id": "https://www.youtube.com/watch?v=QXsWaA3HTHA",
+        "datePublished": "2020-01-22",
         "description": "This is a docuseries about jam.",
         "duration": "PT9M55S",
         "genre": "Factual",
