@@ -181,6 +181,7 @@
             "episode": {
               "@type": "TVEpisode",
               "@id": "https://www.youtube.com/watch?v=kNzoswFIU9M",
+              "duration": "PT15M33S",
               "episodeNumber": 10,
               "potentialAction": {
                 "@type": "WatchAction",
@@ -203,6 +204,7 @@
             "episode": {
               "@type": "TVEpisode",
               "@id": "https://www.youtube.com/watch?v=PzzNuCk-e0Y",
+              "duration": "PT10M15S",
               "episodeNumber": 1,
               "potentialAction": {
                 "@type": "WatchAction",
