@@ -312,38 +312,39 @@
       },
       {
         "@context": "https://schema.org/",
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=zJQNQmE6_UI",
-        "author": {
-          "@type": "Person",
-          "name": "Google Chrome Developers",
-          "url": "https://www.youtube.com/user/ChromeDevelopers"
-        },
-        "datePublished": "2020-01-27",
-        "description": "This week Mariko and Pete jump back into your questions on FUGU capabilities.",
-        "duration": "PT1M",
-        "genre": "Factual",
-        "isFamilyFriendly": "https://schema.org/True",
-        "name": "Ask Chrome",
+        "@type": "BroadcastEvent",
+        "@id": "https://www.youtube.com/watch?v=zJQNQmE6_U#broadcast",
+        "isLiveBroadcast": "https://schema.org/True",
+        "startDate": "2020-03-20T00:00:00+0000",
+        "endDate": "2020-12-31T23:59:00+0000",
         "potentialAction": {
           "@type": "WatchAction",
           "target": "https://www.youtube.com/watch?v=zJQNQmE6_UI"
         },
-        "publication": {
-          "@type": "BroadcastEvent",
-          "isLiveBroadcast": "https://schema.org/True",
-          "startDate": "2020-03-20T00:00:00+0000",
-          "endDate": "2020-12-31T23:59:00+0000"
-        },
-        "image": {
-          "@type": "ImageObject",
-          "width": 336,
-          "height": 188,
-          "url": "https://beccahughes.github.io/media/media-feeds/askchrome.webp",
-          "additionalProperty": {
-            "@type": "PropertyValue",
-            "name": "contentAttributes",
-            "value": ["hasTitle", "iconic", "poster"]
+        "workPerformed": {
+          "@type": "VideoObject",
+          "@id": "https://www.youtube.com/watch?v=zJQNQmE6_UI",
+          "author": {
+            "@type": "Person",
+            "name": "Google Chrome Developers",
+            "url": "https://www.youtube.com/user/ChromeDevelopers"
+          },
+          "datePublished": "2020-01-27",
+          "description": "This week Mariko and Pete jump back into your questions on FUGU capabilities.",
+          "duration": "PT1M",
+          "genre": "Factual",
+          "isFamilyFriendly": "https://schema.org/True",
+          "name": "Ask Chrome",
+          "image": {
+            "@type": "ImageObject",
+            "width": 336,
+            "height": 188,
+            "url": "https://beccahughes.github.io/media/media-feeds/askchrome.webp",
+            "additionalProperty": {
+              "@type": "PropertyValue",
+              "name": "contentAttributes",
+              "value": ["hasTitle", "iconic", "poster"]
+            }
           }
         }
       },
