@@ -42,7 +42,12 @@
           "@type": "ImageObject",
           "width": 336,
           "height": 188,
-          "url": "https://beccahughes.github.io/media/media-feeds/video1.webp"
+          "url": "https://beccahughes.github.io/media/media-feeds/video1.webp",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
         }
       },
       {
@@ -88,12 +93,27 @@
           "startTime": "00:00:10",
           "target": "https://youtu.be/iTC3mfe0DwE?t=10"
         },
-        "image": {
+        "image": [{
           "@type": "ImageObject",
           "width": 336,
           "height": 188,
-          "url": "https://beccahughes.github.io/media/media-feeds/video2.webp"
-        }
+          "url": "https://beccahughes.github.io/media/media-feeds/video2.webp",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
+        }, {
+          "@type": "ImageObject",
+          "width": 1884,
+          "height": 982,
+          "url": "https://beccahughes.github.io/media/media-feeds/video2_current.png",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["sceneStill"]
+          }
+        }]
       },
       {
         "@context": "https://schema.org/",
@@ -124,12 +144,27 @@
                 "startTime": "00:04:14",
                 "target": "https://www.youtube.com/watch?v=L0OB0_bO5I0?t=254"
               },
-              "image": {
+              "image": [{
                 "@type": "ImageObject",
                 "width": 336,
                 "height": 188,
-                "url": "https://beccahughes.github.io/media/media-feeds/chrome79.webp"
-              },
+                "url": "https://beccahughes.github.io/media/media-feeds/chrome79.webp",
+                "additionalProperty": {
+                  "@type": "PropertyValue",
+                  "name": "contentAttributes",
+                  "value": ["hasTitle", "iconic", "poster"]
+                }
+              }, {
+                "@type": "ImageObject",
+                "width": 1874,
+                "height": 970,
+                "url": "https://beccahughes.github.io/media/media-feeds/chrome79_current.png",
+                "additionalProperty": {
+                  "@type": "PropertyValue",
+                  "name": "contentAttributes",
+                  "value": ["sceneStill"]
+                }
+              }],
               "name": "New in Chrome 79"
             },
             {
@@ -146,7 +181,12 @@
                 "@type": "ImageObject",
                 "width": 336,
                 "height": 188,
-                "url": "https://beccahughes.github.io/media/media-feeds/chrome80.webp"
+                "url": "https://beccahughes.github.io/media/media-feeds/chrome80.webp",
+                "additionalProperty": {
+                  "@type": "PropertyValue",
+                  "name": "contentAttributes",
+                  "value": ["hasTitle", "iconic", "poster"]
+                }
               },
               "name": "New in Chrome 80"
             }
@@ -192,7 +232,12 @@
                 "@type": "ImageObject",
                 "width": 336,
                 "height": 188,
-                "url": "https://beccahughes.github.io/media/media-feeds/chromeu1.webp"
+                "url": "https://beccahughes.github.io/media/media-feeds/chromeu1.webp",
+                "additionalProperty": {
+                  "@type": "PropertyValue",
+                  "name": "contentAttributes",
+                  "value": ["hasTitle", "iconic", "poster"]
+                }
               },
               "name": "Anatomy of the Browser"
             },
@@ -215,7 +260,12 @@
                 "@type": "ImageObject",
                 "width": 336,
                 "height": 188,
-                "url": "https://beccahughes.github.io/media/media-feeds/chromeu1.webp"
+                "url": "https://beccahughes.github.io/media/media-feeds/chromeu2.webp",
+                "additionalProperty": {
+                  "@type": "PropertyValue",
+                  "name": "contentAttributes",
+                  "value": ["hasTitle", "iconic", "poster"]
+                }
               },
               "name": "History of the Web"
             },
@@ -226,7 +276,12 @@
           "@type": "ImageObject",
           "width": 336,
           "height": 188,
-          "url": "https://beccahughes.github.io/media/media-feeds/chromeu.webp"
+          "url": "https://beccahughes.github.io/media/media-feeds/chromeu.webp",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
         }
       },
       {
@@ -247,7 +302,12 @@
           "@type": "ImageObject",
           "width": 360,
           "height": 480,
-          "url": "https://example.org/video_thumbnail.png"
+          "url": "https://beccahughes.github.io/media/media-feeds/jam.webp",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
         }
       },
       {
@@ -279,7 +339,12 @@
           "@type": "ImageObject",
           "width": 336,
           "height": 188,
-          "url": "https://beccahughes.github.io/media/media-feeds/askchrome.webp"
+          "url": "https://beccahughes.github.io/media/media-feeds/askchrome.webp",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
         }
       },
       {
@@ -305,12 +370,27 @@
           "@type": "WatchAction",
           "target": "https://mounirlamouri.github.io/sandbox/media/dynamic-controls.html"
         },
-        "image": {
+        "image": [{
           "@type": "ImageObject",
           "width": 1392,
           "height": 749,
-          "url": "https://beccahughes.github.io/media/media-feeds/big_buck_bunny.jpg"
-        }
+          "url": "https://beccahughes.github.io/media/media-feeds/big_buck_bunny.jpg",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["hasTitle", "iconic", "poster"]
+          }
+        }, {
+          "@type": "ImageObject",
+          "width": 1600,
+          "height": 900,
+          "url": "https://beccahughes.github.io/media/media-feeds/big_buck_bunny_bg.jpg",
+          "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "contentAttributes",
+            "value": ["iconic", "background"]
+          }
+        }]
       }
     ],
     "provider": {
@@ -327,11 +407,31 @@
         }
       },
       "name": "Chromium Developers",
-      "logo": {
+      "logo": [{
         "@type": "ImageObject",
-        "width": 48,
-        "height": 48,
-        "url": "https://www.chromium.org/_/rsrc/1438879449147/config/customLogo.gif?revision=3"
-      }
+        "width": 1113,
+        "height": 245,
+        "url": "https://beccahughes.github.io/media/media-feeds/chromium_logo_white.png",
+        "additionalProperty": {
+          "@type": "PropertyValue",
+          "name": "contentAttributes",
+          "value": ["forDarkBackground", "hasTitle", "transparentBackground"]
+        }
+      }, {
+        "@type": "ImageObject",
+        "width": 600,
+        "height": 315,
+        "url": "https://beccahughes.github.io/media/media-feeds/chromium_card.png",
+        "additionalProperty": {
+          "@type": "PropertyValue",
+          "name": "contentAttributes",
+          "value": ["hasTitle", "centered"]
+        }
+      }]
+    },
+    "additionalProperty": {
+      "@type": "PropertyValue",
+      "name": "associatedOrigin",
+      "value": ["https://www.github.com"]
     }
 }
