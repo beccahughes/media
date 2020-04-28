@@ -426,7 +426,7 @@
         "additionalProperty": {
           "@type": "PropertyValue",
           "name": "contentAttributes",
-          "value": ["hasTitle", "centered"]
+          "value": ["forLightBackground", "hasTitle", "centered"]
         }
       }]
     },
