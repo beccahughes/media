@@ -298,8 +298,8 @@
         },
         "image": {
           "@type": "ImageObject",
-          "width": 360,
-          "height": 480,
+          "width": 480,
+          "height": 360,
           "url": "https://beccahughes.github.io/media/media-feeds/jam.webp",
           "additionalProperty": {
             "@type": "PropertyValue",
