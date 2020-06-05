@@ -429,10 +429,6 @@
     },
     "additionalProperty": [{
       "@type": "PropertyValue",
-      "name": "associatedOrigin",
-      "value": ["https://accounts.beccahughes.me"]
-    }, {
-      "@type": "PropertyValue",
       "name": "cookieNameFilter",
       "value": "TEST"
     }]
